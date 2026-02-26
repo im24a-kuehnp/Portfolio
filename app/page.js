@@ -42,7 +42,7 @@ export default function Home() {
         setQueue((prev) => prev.slice(1));
         if (onComplete) onComplete();
       }
-    }, 40);
+    }, 22);
 
     return () => {
       clearInterval(interval);
